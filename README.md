@@ -14,19 +14,25 @@ This document includes helper text that will not be displayed when rendered. Any
 TITLE
 Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
  --->
- # (todo:Project Title)
+ # Oak Compact Joystick
 
 <!--- 
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The (todo:Project Title) is for making it easier to document Open-Source Assistive Technology devices. It is intended for use by makers. The device is  comprised of off-the-shelf electronics and 3D printed parts. The overall cost of materials is about $8 (plus $8 for component shipping).
+The Oak Compact Joysticks are medium sized analog gaming joysticks that have 4 interchangeable toppers and are compatible with PC (USB Version) and the XAC (Both USB and non-USB versions). They have an approximately ±25° range of motion and moderate force to operate. The non-USB version (A) has a 3.5 mm TRRS plug (the size of a headphone jack) and can be used to play games with the Xbox Adaptive Controller (XAC). It may be compatible with other interfaces that use joysticks with 3.5 mm TRRS cables, such as the Enabled Controller.
+
+These current devices exist as prototypes with some of the following updates on the way:
+- Switch itegration
+- Updated code for improved user response profiles
+- Increase in mounting options
+- Increase in topper options
 
 <!--- 
 PHOTO
 
  --->
-![Image Description](Photos/Device_Photo.jpg)
+![Image Description](Photos/USB_Joystick_2.jpg)
 
 <!--- 
 ## More info at
