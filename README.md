@@ -45,17 +45,19 @@ PHOTO
 <!--- 
 Include an overall idea of what major steps are required to build the device.
  --->
+### 1. Verify Which Design the User Wants
+The Oak Compact Joystick comes in both USB (U) and Non-USB (A) format. The non-USB version uses a [TRRS]() lead to conncet to an existing gamepad such as the XAC or [Enabled Controller]. The USB version has its own microcontroller and allows for direct PC use as well as some customisation of the joystick responce profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
 
-### 1. Order the Off-The-Shelf Components
-The [Bill of Materials](/Documentation/ProductTitle_BOM_v0.1.xlsx) lists all of the parts and components required to build the (todo:Project Title). The electronic components may be available locally, but will probably need to be ordered online. 
+### 2. Order the Off-The-Shelf Components
+The Bill of Materials lists all of the parts and components required to build the Oak Compact Joystick. The mechanical components may be available locally, but will probably need to be ordered online. 
 
-### 2. Print the 3D Printable components
+### 3. Print the 3D Printable components
 Print the components for the switch tester case and choose an option for the case.
 
-All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
+All of the files and individual print files can be in the [/Build_Files/3D_Print_Files](/Build_Files/3D_Print_Files/) folder.
 
-### 3. Assemble the (todo:Product Title)
-Reference the [assembly guide](/Documentation/ProductTitle_Assembly_Guide_v1.0.pdf) for the tools and steps required to build each portion.
+### 4. Assemble the Oak Compact Joystick
+Reference the Assembly Guide for the tools and steps required to build each portion. 
 
 ## Files
 <!---
@@ -70,37 +72,35 @@ DOCUMENTATION
 --->
 | Document             | Version | Birch Mini Joystick - U 														| Birch Mini Joystick - A |
 |----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| Design Rationale     | 0.2     | [Birch_Mini_Joystick_Design_Rationale](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick_Design_Rationale_v0.2.pdf)       	| [Birch_Mini_Joystick_Design_Rationale](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick_Design_Rationale_v0.2.pdf)      |
-| Maker Checklist      | 0.2     | [Birch_Mini_Joystick-U_Maker_Checklist](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_Maker_Checklist_v0.2.pdf)     	| [Birch_Mini_Joystick-A_Maker_Checklist](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_Maker_Checklist_v0.2.pdf)     |
-| Bill of Materials    | 0.2     | [Birch_Mini_Joystick-U_Bill_of_Materials](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_BOM_v0.2.xlsx)     		| [Birch_Mini_Joystick-A_Bill_of_Materials](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_BOM_v0.2.xlsx)     |
-| 3D Printing Guide    | 0.2     | [Birch_Mini_Joystick-U_3D_Printing_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_3D_Printing_Guide_v0.2.pdf)     | [Birch_Mini_Joystick-A_3D_Printing_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_3D_Printing_Guide_v0.2.pdf)     |
-| Assembly Guide       | 0.2     | [Birch_Mini_Joystick-U_Assembly_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_Assembly_Guide_v0.2.pdf)     	| [Birch_Mini_Joystick-A_Assembly_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_Assembly_Guide_v0.2.pdf)     | 
-| User Guide           | 0.2     | [Birch_Mini_Joystick-U_User_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_User_Guide_v0.2.pdf)    		| [Birch_Mini_Joystick-A_User_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_User_Guide_v0.2.pdf)    |
-| Changelog            | 0.2     | [Birch_Mini_Joystick-U_Changelog](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick_Changelog_v0.2.pdf)     			| [Birch_Mini_Joystick-A_Changelog](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick_Changelog_v0.2.pdf)     |
+| Design Rationale     | 0.2     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick_Design_Rationale_v0.2.pdf)       	| [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick_Design_Rationale_v0.2.pdf)      |
+| Maker Checklist      | 0.2     | [Oak_Compact_Joystick-U_Maker_Checklist](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_Maker_Checklist_v0.2.pdf)     	| [Oak_Compact_Joystick-A_Maker_Checklist](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_Maker_Checklist_v0.2.pdf)     |
+| Bill of Materials    | 0.2     | [Oak_Compact_Joystick-U_Bill_of_Materials](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_BOM_v0.2.xlsx)     		| [Oak_Compact_Joystick-A_Bill_of_Materials](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_BOM_v0.2.xlsx)     |
+| 3D Printing Guide    | 0.2     | [Oak_Compact_Joystick-U_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_3D_Printing_Guide_v0.2.pdf)     | [Oak_Compact_Joystick-A_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_3D_Printing_Guide_v0.2.pdf)     |
+| Assembly Guide       | 0.2     | [Oak_Compact_Joystick-U_Assembly_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_Assembly_Guide_v0.2.pdf)     	| [Oak_Compact_Joystick-A_Assembly_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_Assembly_Guide_v0.2.pdf)     | 
+| User Guide           | 0.2     | [Oak_Compact_Joystick-U_User_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_User_Guide_v0.2.pdf)    		| [Oak_Compact_Joystick-A_User_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_User_Guide_v0.2.pdf)    |
+| Changelog            | 0.2     | [Oak_Compact_Joystick-U_Changelog](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick_Changelog_v0.2.pdf)     			| [Oak_Compact_Joystick-A_Changelog](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick_Changelog_v0.2.pdf)     |
 
 ### Design Files
 <!---
 DESIGN FILES
 If possible, include a copy of original design files to facilitate easy editing and customization.
 --->
- - [CAD Files](/Design_Files/CAD)
- - [PCB Files](/Design_Files/PCB)
+ - [CAD Files](/Design_Files)
 
 ### Build Files
 <!---
 BUILD FILES
 This section i
 --->
- - [3D Printing Files](/Build_Files/3D_Printing)
- - [Custom PCB Files](/Build_Files/Custom_PCB)
- - [V1.0 3MF](/Build_Files/3D_Printing/ProductTitle_v1.0.3mf)
+ - [3D Printing Files](/Build_Files/3D_Print_files)
+ - [Firmware](/Build_Files/OpenAT_Joystick_Software_Oak)
 
 ## License
 <!---
 LICENSE
 Choose an appropriate license. We recommend an open-source hardware compatible license.
 --->
-Everything needed or used to design, make, test, or prepare the (todo: Project Title) is licensed under the CERN 2.0 Weakly Reciprocal license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-W).
+Everything needed or used to design, make, test, or prepare the Oak Compact Joystick is licensed under the CERN 2.0 Weakly Reciprocal license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-W).
 
 Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the (todo: Project Title) are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
 
