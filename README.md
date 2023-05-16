@@ -46,7 +46,7 @@ PHOTO
 Include an overall idea of what major steps are required to build the device.
  --->
 ### 1. Verify Which Design the User Wants
-The Oak Compact Joystick comes in both USB (U) and Non-USB (A) format. The non-USB version uses a [TRRS]() lead to conncet to an existing gamepad such as the XAC or [Enabled Controller]. The USB version has its own microcontroller and allows for direct PC use as well as some customisation of the joystick responce profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
+The Oak Compact Joystick comes in both USB (U) and Non-USB (A) format. The non-USB version uses a [TRRS](https://www.sparkfun.com/products/11580) lead to conncet to an existing gamepad such as the XAC or [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/). The USB version has its own microcontroller and allows for direct PC use as well as some customisation of the joystick responce profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
 
 ### 2. Order the Off-The-Shelf Components
 The Bill of Materials lists all of the parts and components required to build the Oak Compact Joystick. The mechanical components may be available locally, but will probably need to be ordered online. 
