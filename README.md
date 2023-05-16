@@ -48,6 +48,8 @@ Include an overall idea of what major steps are required to build the device.
 ### 1. Verify Which Design the User Wants
 The Oak Compact Joystick comes in both USB (U) and Non-USB (A) format. The non-USB version uses a [TRRS](https://www.sparkfun.com/products/11580) lead to conncet to an existing gamepad such as the XAC or [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/). The USB version has its own microcontroller and allows for direct PC use as well as some customisation of the joystick responce profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
 
+Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
+
 ### 2. Order the Off-The-Shelf Components
 The Bill of Materials lists all of the parts and components required to build the Oak Compact Joystick. The mechanical components may be available locally, but will probably need to be ordered online. 
 
@@ -102,7 +104,7 @@ Choose an appropriate license. We recommend an open-source hardware compatible l
 --->
 Everything needed or used to design, make, test, or prepare the Oak Compact Joystick is licensed under the CERN 2.0 Weakly Reciprocal license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-W).
 
-Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the (todo: Project Title) are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
+Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Oak Compact Joystick are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
 
 ## Attribution
 <!---
