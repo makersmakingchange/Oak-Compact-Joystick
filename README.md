@@ -68,15 +68,15 @@ This section includes all the information and files required to build and modify
 DOCUMENTATION
 
 --->
-| Document | Version | Link |
-|----------|---------|------|
-| Design Specifications| 1.0 | [ProjectTitle_Design_Specifications](/Documentation//Working_Files/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Design Rationale     | 1.0 | [ProjectTitle_Design_Rationale](/Documentation/ProjectTitle_Design_Rationale_v0.1.pdf) |
-| Bill of Materials    | 1.0 | [ProjectTitle_BOM](/Documentation/ProjectTitle_BOM_v0.1.xlsx) |
-| Assembly Guide       | 1.0 | [ProjectTitle_Instructions](/Documentation/ProjectTitle_Assembly_Guide_v0.1.pdf) |
-| Maker Checklist      | 1.0 | [ProjectTitle_Checklist](/Documentation/ProjectTitle_Maker_Checklist_v0.1.pdf) |
-| User Quick Guide          | 1.0 | [ProjectTitle_Quick_Guide](/Documentation/ProjectTitle_Quick_Guide_v0.1.pdf)           |
-| Changelog            | 1.0 | [ProjectTitle_Changelog](/Documentation/ProjectTitle_Changelog_v0.1.pdf)               |
+| Document             | Version | Birch Mini Joystick - U 														| Birch Mini Joystick - A |
+|----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| Design Rationale     | 0.2     | [Birch_Mini_Joystick_Design_Rationale](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick_Design_Rationale_v0.2.pdf)       	| [Birch_Mini_Joystick_Design_Rationale](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick_Design_Rationale_v0.2.pdf)      |
+| Maker Checklist      | 0.2     | [Birch_Mini_Joystick-U_Maker_Checklist](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_Maker_Checklist_v0.2.pdf)     	| [Birch_Mini_Joystick-A_Maker_Checklist](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_Maker_Checklist_v0.2.pdf)     |
+| Bill of Materials    | 0.2     | [Birch_Mini_Joystick-U_Bill_of_Materials](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_BOM_v0.2.xlsx)     		| [Birch_Mini_Joystick-A_Bill_of_Materials](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_BOM_v0.2.xlsx)     |
+| 3D Printing Guide    | 0.2     | [Birch_Mini_Joystick-U_3D_Printing_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_3D_Printing_Guide_v0.2.pdf)     | [Birch_Mini_Joystick-A_3D_Printing_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_3D_Printing_Guide_v0.2.pdf)     |
+| Assembly Guide       | 0.2     | [Birch_Mini_Joystick-U_Assembly_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_Assembly_Guide_v0.2.pdf)     	| [Birch_Mini_Joystick-A_Assembly_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_Assembly_Guide_v0.2.pdf)     | 
+| User Guide           | 0.2     | [Birch_Mini_Joystick-U_User_Guide](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick-U_User_Guide_v0.2.pdf)    		| [Birch_Mini_Joystick-A_User_Guide](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick-A_User_Guide_v0.2.pdf)    |
+| Changelog            | 0.2     | [Birch_Mini_Joystick-U_Changelog](/Documentation/Birch_Mini_Joystick-U/Birch_Mini_Joystick_Changelog_v0.2.pdf)     			| [Birch_Mini_Joystick-A_Changelog](/Documentation/Birch_Mini_Joystick-A/Birch_Mini_Joystick_Changelog_v0.2.pdf)     |
 
 ### Design Files
 <!---
