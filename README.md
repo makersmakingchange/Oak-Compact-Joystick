@@ -119,9 +119,11 @@ ATTRIBUTION
 Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
 --->
 Hardware and enclosure design: Stephen Moyer, Neil Squire
+
 USB Variant software: Milad Hajihassan, Neil Squire
 
 Goalpost Topper: Remixed from [Egon Heuson](https://www.printables.com/model/110455-xac-joysticks-and-universal-adapter)
+
 Concave and Convex Toppers: Remixed from [Microsoft Adaptive Accessories](https://support.microsoft.com/en-us/topic/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca)
 
 The USB variant software utilizes the [Adafruit TinyUSB Library for Arduino](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) which is made available under an [MIT license](https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/LICENSE).
