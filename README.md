@@ -20,19 +20,26 @@ Should match the name of the GitHub repository. Choose something descriptive rat
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The Oak Compact Joysticks are medium sized analog gaming joysticks that have 4 interchangeable toppers and are compatible with PC (USB Version) and the XAC (Both USB and non-USB versions). They have an approximately ±25° range of motion and moderate force to operate. The non-USB version (A) has a 3.5 mm TRRS plug (the size of a headphone jack) and can be used to play games with the Xbox Adaptive Controller (XAC). It may be compatible with other interfaces that use joysticks with 3.5 mm TRRS cables, such as the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
+The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. The Oak Compact Joystick is available in two variants: a USB variant (U) and a non-USB variant (A). The joystick and enclosure are the same in both variants and differ by the cable and internal electronics.
 
-These current devices exist as prototypes with some of the following updates on the way:
-- Switch itegration
+The USB variant (U) has a cable with a USB-A connector. It acts as a USB HID gamepad with a single joystick axis and is compatible with a variety of devices including PC and the USB ports of the Microsoft Xbox Adaptive Controller. The deadzone of this variant can be adjusted through a serial interface.
+
+The non-USB variant (A) has a cable with a 3.5 mm TRRS audio plug (i.e., headphone jack). It is compatible with the X1 or X2 analog input ports on the Microsoft Xbox Adaptive controller as well as the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
+
+
+The current version (v0.2) of the design is a fully functional and tested protoype. A number of updates are on the way:
+- Integration of one or more switches for buttons
 - Updated code for improved user response profiles
-- Increase in mounting options
-- Increase in topper options
+- Additional mounting options
+- Additional topper options
+- Basic mouse functionality
 
 <!--- 
 PHOTO
 
  --->
-![Image Description](Photos/USB_Joystick_2.jpg)
+ <img src="Photos/Oak_Compact_Joystick_U.jpg" width="500" alt="USB Variant of Oak Compact Joystick">
+ <img src="Photos/Oak_Compact_Joystick_U.jpg" width="500" alt="Non-USB variant of Oak Compact Joystick">
 
 <!--- 
 ## More info at
@@ -45,8 +52,8 @@ PHOTO
 <!--- 
 Include an overall idea of what major steps are required to build the device.
  --->
-### 1. Verify Which Design the User Wants
-The Oak Compact Joystick comes in both USB (U) and Non-USB (A) format. The non-USB version uses a [TRRS](https://www.sparkfun.com/products/11580) lead to conncet to an existing gamepad such as the XAC or [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/). The USB version has its own microcontroller and allows for direct PC use as well as some customisation of the joystick responce profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
+### 1. Confirm which variant is required
+The Oak Compact Joystick comes in both USB (U) and Non-USB (A) variants. The non-USB variant uses a TRRS cable to connect to an existing gamepad such as the Microsoft Xbox Adaptive Controller (XAC) or [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/). The USB version has its own microcontroller and emulates an HID gamepad allowing for direct PC use as well as some customisation of the joystick response profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
 
 Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
 
@@ -92,7 +99,7 @@ If possible, include a copy of original design files to facilitate easy editing 
 ### Build Files
 <!---
 BUILD FILES
-This section i
+This section lists links to the various files used to build the device.
 --->
  - [3D Printing Files](/Build_Files/3D_Print_files)
  - [Firmware](/Build_Files/OpenAT_Joystick_Software_Oak)
@@ -111,11 +118,12 @@ Accompanying material such as instruction manuals, videos, and other copyrightab
 ATTRIBUTION
 Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
 --->
-Designer: Stephen Moyer, MMC
+Hardware and enclosure design: Stephen Moyer, Neil Squire
+USB Variant software: Milad Hajihassan, Neil Squire
 
-The documentation template was created by Makers Making Change and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
-
+The USB variant software utilizes the [Adafruit TinyUSB Library for Arduino](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) which is made available under an [MIT license](https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/LICENSE).
+The documentation template was created by Makers Making Change / Neil Squire and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
 
 ## About Makers Making Change
