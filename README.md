@@ -54,7 +54,7 @@ Other available joysticks can be found through the [Joystick Selection Guide](ht
 The Bill of Materials lists all of the parts and components required to build the Oak Compact Joystick. The mechanical components may be available locally, but will probably need to be ordered online. 
 
 ### 3. Print the 3D Printable components
-Print the components for the switch tester case and choose an option for the case.
+Print the components for the Oak Compact Joystick enclosure.
 
 All of the files and individual print files can be in the [/Build_Files/3D_Print_Files](/Build_Files/3D_Print_Files/) folder.
 
@@ -72,7 +72,7 @@ This section includes all the information and files required to build and modify
 DOCUMENTATION
 
 --->
-| Document             | Version | Birch Mini Joystick - U 														| Birch Mini Joystick - A |
+| Document             | Version | Oak Compact Joystick - U 														| Oak Compact Joystick - A |
 |----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
 | Design Rationale     | 0.2     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale.pdf)       	| [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale.pdf)      |
 | Maker Checklist      | 0.2     | [Oak_Compact_Joystick-U_Maker_Checklist](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_Maker_Checklist_v0.2.pdf)     	| [Oak_Compact_Joystick-A_Maker_Checklist](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_Maker_Checklist_v0.2.pdf)     |
