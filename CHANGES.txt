@@ -1,0 +1,7 @@
+------OAK COMPACT JOYSTICK------
+           Changelog
+===============================
+
+Version 0.2 	Date 05/18/2023
+ - Initial commit
+ - Oak Compact Joystick with 4 optional toppers and an optional camera mount adapter
