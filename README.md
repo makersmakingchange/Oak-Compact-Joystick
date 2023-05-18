@@ -39,7 +39,7 @@ PHOTO
 
  --->
  <img src="Photos/Oak_Compact_Joystick_U.jpg" width="500" alt="USB Variant of Oak Compact Joystick">
- <img src="Photos/Oak_Compact_Joystick_U.jpg" width="500" alt="Non-USB variant of Oak Compact Joystick">
+ <img src="Photos/Oak_Compact_Joystick_A.jpg" width="500" alt="Non-USB variant of Oak Compact Joystick">
 
 <!--- 
 ## More info at
