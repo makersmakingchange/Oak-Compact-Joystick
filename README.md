@@ -127,6 +127,7 @@ Goalpost Topper: Remixed from [Egon Heuson](https://www.printables.com/model/110
 Concave and Convex Toppers: Remixed from [Microsoft Adaptive Accessories](https://support.microsoft.com/en-us/topic/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca)
 
 The USB variant software utilizes the [Adafruit TinyUSB Library for Arduino](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) which is made available under an [MIT license](https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/LICENSE).
+
 The documentation template was created by Makers Making Change / Neil Squire and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
 
