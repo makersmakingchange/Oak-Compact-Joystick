@@ -22,7 +22,7 @@ A brief summary of the project. What it does, who it is for, how much it costs.
  --->
 The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. 
 
-The Oak Compact Joystick v0.9 features the OakCompact Joystick - A paired with the [Enabled Controller Mini](https://github.com/milador/Enabled-Controller-Mini/tree/main) to create a USB mouse, or a gamepad with 4 buttons. The specific mouse and gamepad software can be found in [/Build_Files/_Software](/Build_Files/Software).
+The Oak Compact Joystick v0.9 features the OakCompact Joystick - A paired with the [Enabled Controller Mini](https://github.com/milador/Enabled-Controller-Mini/tree/main) to create a USB mouse, or a gamepad with 4 buttons. The specific mouse and gamepad software can be found in [/Build_Files/Software](/Build_Files/Software).
 
 
 The current version (v0.9) of the design is a protoype design. A number of updates are on the way:
