@@ -97,7 +97,7 @@ Reference the [Assembly Guide](/Documentation/Oak_Compact_Joystick-A_Assembly_Gu
 | Document             | Version | Link |
 |----------------------|---------|------|
 | Design Rationale     | 0.9     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale_v0.9.pdf)     |
-| Bill of Materials    | 0.9     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Compact_Joystick_BOM.xlsx)     |
+| Bill of Materials    | 0.9     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Compact_Joystick_BOM.csv)     |
 | Topper Sizing Guide  | 0.9     | [Oak_Compact_Joystick_Topper_Sizing_Guide](/Documentation/Oak_Compact_Joystick_Topper_Sizing_Guide.pdf)
 | 3D Printing Guide    | 0.9     | [Oak_Compact_Joystick_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-A_3D_Printing_Guide.pdf)     |
 | Assembly Guide       | 0.9     | [Oak_Compact_Joystick_Assembly_Guide](/Documentation/Oak_Compact_Joystick-A_Assembly_Guide.pdf)     |
