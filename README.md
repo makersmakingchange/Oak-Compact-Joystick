@@ -79,7 +79,7 @@ The Makers Checklist contains a list of tasks to complete to build the device.
 
 ### 2. Order the Off-The-Shelf Components
 
-The [Oak-A Bill of Materials](/Documentation/Oak_Compact_Joystick_BOM.csv) lists all of the parts and components required to build the Oak Compact Joystick - A. For the Enabled Controller Mini BOM and PCB ordering instructions, see the [Enabled Controller Mini Repository](https://github.com/milador/Enabled-Controller-Mini/tree/main).
+The [Oak-A Bill of Materials](/Documentation/Oak_Compact_Joystick-A_BOM.csv) lists all of the parts and components required to build the Oak Compact Joystick - A. For the Enabled Controller Mini BOM and PCB ordering instructions, see the [Enabled Controller Mini Repository](https://github.com/milador/Enabled-Controller-Mini/tree/main).
 
 
 ### 3. Print the 3D Printable components
@@ -97,7 +97,7 @@ Reference the [Assembly Guide](/Documentation/Oak_Compact_Joystick-A_Assembly_Gu
 | Document             | Version | Link |
 |----------------------|---------|------|
 | Design Rationale     | 0.9     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale_v0.9.pdf)     |
-| Bill of Materials    | 0.9     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Compact_Joystick_BOM.csv)     |
+| Bill of Materials    | 0.9     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Compact_Joystick-A_BOM.csv)     |
 | Topper Sizing Guide  | 0.9     | [Oak_Compact_Joystick_Topper_Sizing_Guide](/Documentation/Oak_Compact_Joystick_Topper_Sizing_Guide.pdf)
 | 3D Printing Guide    | 0.9     | [Oak_Compact_Joystick_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-A_3D_Printing_Guide.pdf)     |
 | Assembly Guide       | 0.9     | [Oak_Compact_Joystick_Assembly_Guide](/Documentation/Oak_Compact_Joystick-A_Assembly_Guide.pdf)     |
