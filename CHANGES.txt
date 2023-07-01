@@ -5,3 +5,10 @@
 Version 0.2 	Date 05/18/2023
  - Initial commit
  - Oak Compact Joystick with 4 optional toppers and an optional camera mount adapter
+
+Version 0.9           Date 06/30/2023
+- Enclosure optimised for reduced print time and improved build redundancy
+- Topper connection collet design
+- Updated toppers
+           - 5 parametric toppers
+- Paired with Enabled Controller Mini and custom Mouse and Gamepad code
