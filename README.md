@@ -34,7 +34,7 @@ The current version (v0.9) of the design is a protoype design. A number of updat
 PHOTO
 
  --->
- <img src="Photos/Oak_ECM_Switch.jpg" width="500" alt="The Oak Compact Joystick - A with an Enabled Controller Mini and Interact Switch.">
+ <img src="Photos/Oak_ECM_Switch.png" width="500" alt="The Oak Compact Joystick - A with an Enabled Controller Mini and Interact Switch.">
  
 
 <!--- 
