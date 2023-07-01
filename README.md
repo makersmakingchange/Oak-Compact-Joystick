@@ -20,26 +20,22 @@ Should match the name of the GitHub repository. Choose something descriptive rat
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. The Oak Compact Joystick is available in two variants: a USB variant (U) and a non-USB variant (A). The joystick and enclosure are the same in both variants and differ by the cable and internal electronics.
+The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. 
 
-The USB variant (U) has a cable with a USB-A connector. It acts as a USB HID gamepad with a single joystick axis and is compatible with a variety of devices including PC and the USB ports of the Microsoft Xbox Adaptive Controller. The deadzone of this variant can be adjusted through a serial interface.
-
-The non-USB variant (A) has a cable with a 3.5 mm TRRS audio plug (i.e., headphone jack). It is compatible with the X1 or X2 analog input ports on the Microsoft Xbox Adaptive controller as well as the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
+The Oak Compact Joystick v0.9 features the OakCompact Joystick - A paired with the [Enabled Controller Mini](https://github.com/milador/Enabled-Controller-Mini/tree/main) to create a USB mouse, or a gamepad with 4 buttons. The specific mouse and gamepad software can be found in [/Build_Files/_Software](/Build_Files/Software).
 
 
-The current version (v0.2) of the design is a fully functional and tested protoype. A number of updates are on the way:
-- Integration of one or more switches for buttons
+The current version (v0.9) of the design is a protoype design. A number of updates are on the way:
 - Updated code for improved user response profiles
 - Additional mounting options
-- Additional topper options
-- Basic mouse functionality
+
 
 <!--- 
 PHOTO
 
  --->
- <img src="Photos/Oak_Compact_Joystick_U.jpg" width="500" alt="USB Variant of Oak Compact Joystick">
- <img src="Photos/Oak_Compact_Joystick_A.jpg" width="500" alt="Non-USB variant of Oak Compact Joystick">
+ <img src="Photos/Oak_ECM_Switch.jpg" width="500" alt="The Oak Compact Joystick - A with an Enabled Controller Mini and Interact Switch.">
+ 
 
 <!--- 
 ## More info at
@@ -47,102 +43,105 @@ PHOTO
  - [Makers Making Change Project Page](TBD)
  --->
 
+## OpenAT Joysticks
+This design is part of the [OpenAT Joystick project](https://github.com/makersmakingchange/OpenAT-Joysticks), a collection of open source designs for digital access and adapted gaming.  
+
+## How to Obtain an Oak Compact Joystick - A and Enabled Controller Mini
+There are several options for obtaining the device.
+### 1. Do it Yourself (DIY) or Do it Together (DIT)
+
+This is an open-source assistive technology, so anyone is free to build it. All of the files and instructions required to build the Oak Compact Joystick - A and program the Enabled Controller Mini are contained within this repository. The files and instructions to build the Enabled Controller Mini can be found in the [Enabled Controller Mini Repository](https://github.com/milador/Enabled-Controller-Mini/tree/main) Refer to the Maker Checklist below.
+
+### 2. Request a build of this device
+
+
+A limited number of these devices may be available at no-cost to people with disabilities that reside within Canada. If you think this applies to you, please send an email to info@makersmakingchange.com.
+
+Once the device is finalized and published in the Makers Making Change library, it will also be possible to submit a build request to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
+<!---
+If you would like to obtain an Oak Compact Joystick - A and Enabled Controller Mini, you may submit a build request through the [MMC Library Page](https://makersmakingchange.com/project/Oak-Compact-Joystick/). The requestor is responsible for the cost of materials and any shipping.
+--->
+
+### 3. How to build this device for someone else
+Once the device is finalized and published in the Makers Making Change library, there is a plan to hold a number of build events in Canada. If you'd like to participate, send an email to info@makersmakingchange.com.
+
+Once added to the library, if you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Makers Wanted](https://makersmakingchange.com/maker-wanted/) section to fulfill build requests.
+
+<!---
+If you have the skills and equipment to build this device, and would like to donate your time to create the switch for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
+--->
 
 ## Getting Started
-<!--- 
-Include an overall idea of what major steps are required to build the device.
- --->
-### 1. Confirm which variant is required
-The Oak Compact Joystick comes in both USB (U) and Non-USB (A) variants. The non-USB variant uses a TRRS cable to connect to an existing gamepad such as the Microsoft Xbox Adaptive Controller (XAC) or [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/). The USB version has its own microcontroller and emulates an HID gamepad allowing for direct PC use as well as some customisation of the joystick response profile. Ask the user which one they would like. There are separate set of documentation for each joystick version.
 
-Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
+### 1. Read the Makers Checklist
+
+The Makers Checklist contains a list of tasks to complete to build the device.
 
 ### 2. Order the Off-The-Shelf Components
-The Bill of Materials lists all of the parts and components required to build the Oak Compact Joystick. The mechanical components may be available locally, but will probably need to be ordered online. 
+
+The [Oak-A Bill of Materials](/Documentation/Oak_Compact_Joystick_BOM.csv) lists all of the parts and components required to build the Oak Compact Joystick - A. For the Enabled Controller Mini BOM and PCB ordering instructions, see the [Enabled Controller Mini Repository](https://github.com/milador/Enabled-Controller-Mini/tree/main).
+
 
 ### 3. Print the 3D Printable components
-Print the components for the Oak Compact Joystick enclosure.
 
-All of the files and individual print files can be in the [/Build_Files/3D_Print_Files](/Build_Files/3D_Print_Files/) folder.
+Print the components needed for the Oak Compact Joystick and Enabled Controller Mini. Make sure to ask the user if they would like any of the optional prints such as toppers or mount adapters.
 
-### 4. Assemble the Oak Compact Joystick
-Reference the Assembly Guide for the tools and steps required to build each portion. 
+All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
+
+### 4. Assemble the Cedar Mini Joystick
+
+Reference the [Assembly Guide](/Documentation/Cedar_Mini_Joystick_Assembly_Guide_v0.9.pdf) for the tools and steps required to build each portion.
 
 ## Files
-<!---
-FILES
-This section includes all the information and files required to build and modify the device, including documentation, design files, and build files. 
---->
-
 ### Documentation
-<!---
-DOCUMENTATION
-
---->
-| Document             | Version | Oak Compact Joystick - U 														| Oak Compact Joystick - A |
-|----------------------|---------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| Design Rationale     | 0.2     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale.pdf)       	| [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale.pdf)      |
-| Maker Checklist      | 0.2     | [Oak_Compact_Joystick-U_Maker_Checklist](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_Maker_Checklist_v0.2.pdf)     	| [Oak_Compact_Joystick-A_Maker_Checklist](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_Maker_Checklist_v0.2.pdf)     |
-| Bill of Materials    | 0.2     | [Oak_Compact_Joystick-U_Bill_of_Materials](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_BOM_v0.2.csv)     		| [Oak_Compact_Joystick-A_Bill_of_Materials](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_BOM_v0.2.csv)     |
-| 3D Printing Guide    | 0.2     | [Oak_Compact_Joystick-U_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_3D_Printing_Guide_v0.2.pdf)     | [Oak_Compact_Joystick-A_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_3D_Printing_Guide_v0.2.pdf)     |
-| Assembly Guide       | 0.2     | [Oak_Compact_Joystick-U_Assembly_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_Assembly_Guide_v0.2.pdf)     	| [Oak_Compact_Joystick-A_Assembly_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_Assembly_Guide_v0.2.pdf)     | 
-| User Guide           | 0.2     | [Oak_Compact_Joystick-U_User_Guide](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick-U_User_Guide_v0.2.pdf)    		| [Oak_Compact_Joystick-A_User_Guide](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick-A_User_Guide_v0.2.pdf)    |
-| Changelog            | 0.2     | [Oak_Compact_Joystick-U_Changelog](/Documentation/Oak_Compact_Joystick-U/Oak_Compact_Joystick_Changelog_v0.2.pdf)     			| [Oak_Compact_Joystick-A_Changelog](/Documentation/Oak_Compact_Joystick-A/Oak_Compact_Joystick_Changelog_v0.2.pdf)     |
+| Document             | Version | Link |
+|----------------------|---------|------|
+| Design Rationale     | 0.9     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Compact_Joystick_Design_Rationale_v0.9.pdf)     |
+| Bill of Materials    | 0.9     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Compact_Joystick_BOM.xlsx)     |
+| Topper Sizing Guide  | 0.9     | [Oak_Compact_Joystick_Topper_Sizing_Guide](/Documentation/Oak_Compact_Joystick_Topper_Sizing_Guide.pdf)
+| 3D Printing Guide    | 0.9     | [Oak_Compact_Joystick_3D_Printing_Guide](/Documentation/Oak_Compact_Joystick_3D_Printing_Guide.pdf)     |
+| Assembly Guide       | 0.9     | [Oak_Compact_Joystick_Assembly_Guide](/Documentation/Oak_Compact_Joystick_Assembly_Guide.pdf)     |
+| User Guide           | 0.9     | [Oak_Compact_Joystick_User_Guide](/Documentation/Oak_Compact_Joystick_User_Guide.pdf)    |
 
 ### Design Files
-<!---
-DESIGN FILES
-If possible, include a copy of original design files to facilitate easy editing and customization.
---->
- - [CAD Files](/Design_Files)
+[CAD Files](/Design_Files)
 
 ### Build Files
-<!---
-BUILD FILES
-This section lists links to the various files used to build the device.
---->
- - [3D Printing Files](/Build_Files/3D_Print_files)
- - [Firmware](/Build_Files/OpenAT_Joystick_Software_Oak)
-
-## License
-<!---
-LICENSE
-Choose an appropriate license. We recommend an open-source hardware compatible license.
---->
-Everything needed or used to design, make, test, or prepare the Oak Compact Joystick is licensed under the CERN 2.0 Weakly Reciprocal license <https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2> (CERN-OHL-W).
-
-Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Oak Compact Joystick are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
+ - [3D Printing Files](/Build_Files/3D_Printing_Files)
 
 ## Attribution
-<!---
-ATTRIBUTION
-Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
---->
 Hardware and enclosure design: Stephen Moyer, Neil Squire
 
-USB Variant software: Milad Hajihassan, Neil Squire
+Software: Milad Hajihassan, Neil Squire; Josie Versloot, Neil Squire; and Stephen Moyer, Neil Squire
 
-Goalpost Topper: Remixed from [Egon Heuson](https://www.printables.com/model/110455-xac-joysticks-and-universal-adapter)
+Enabled Controller Mini design: Milad Hajihassan, Neil Squire
 
-Concave and Convex Toppers: Remixed from [Microsoft Adaptive Accessories](https://support.microsoft.com/en-us/topic/customize-your-microsoft-adaptive-accessories-with-3d-printed-designs-29ee6d7e-45f4-4730-bfe6-657c294d02ca)
-
-The USB variant software utilizes the [Adafruit TinyUSB Library for Arduino](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) which is made available under an [MIT license](https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/LICENSE).
+The software utilizes the [Adafruit TinyUSB Library for Arduino](https://github.com/adafruit/Adafruit_TinyUSB_Arduino) which is made available under an [MIT license](https://github.com/adafruit/Adafruit_TinyUSB_Arduino/blob/master/LICENSE).
 
 The documentation template was created by Makers Making Change / Neil Squire and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
 
+## License
+Everything needed or used to design, make, test, or prepare the Oak Compact Joystick is licensed under the CERN 2.0 Weakly Reciprocal license https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2 (CERN-OHL-W).
+
+Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Oak Compact Joystick are published under a Creative Commons Attribution-ShareAlike 4.0 license https://creativecommons.org/licenses/by-sa/4.0/ (CC BY-SA 4.0).
+
+---
+
 ## About Makers Making Change
 <img src="https://www.makersmakingchange.com/wp-content/uploads/logo/mmc_logo.svg" width="500" alt="Makers Making Change Logo">
 
-Makers Making Change is an initiative of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that uses technology, knowledge, and passion to empower people with disabilities.
+Makers Making Change is an initiative of [Neil Squire](https://www.neilsquire.ca/), a Canadian non-profit that empowers people with disabilities.
 
-We are committed to cultivating a network of volunteer makers who support people with disabilities in their communities through cost effective assistive technology. Check out our library of free, open-source assistive technologies.
+We are committed to creating a network of volunteer makers who support people with disabilities in their communities through 3D printing assistive devices. Check out our library of free, open-source assistive technologies with parts and build instructions.
 
  - Website: [www.MakersMakingChange.com](https://www.makersmakingchange.com/)
- - [GitHub](https://github.com/makersmakingchange)
- - [Thingiverse](https://www.thingiverse.com/makersmakingchange/about)
+ - GitHub: [https://github.com/makersmakingchange](https://github.com/makersmakingchange)
  - Twitter: [@makermakechange](https://twitter.com/makermakechange)
  - Instagram: [@makersmakingchange](https://www.instagram.com/makersmakingchange)
 
-### Contact Us
-For technical questions, to get involved, or to share your experience we encourage you to visit [MMC Forum](https://forum.makersmakingchange.com) or contact info@makersmakingchange.com
+
+
+## Contact Us
+
+For technical questions, to get involved, or share your experience we encourage you to visit the [MMC Website](https://www.makersmakingchange.com/), [MMC Forum](https://makersmakingchange.com/forum), or contact info@makersmakingchange.com
