@@ -90,7 +90,7 @@ All of the files and individual print files can be in the [/Build_Files/3D_Print
 
 ### 4. Assemble the Cedar Mini Joystick
 
-Reference the [Assembly Guide](/Documentation/Cedar_Mini_Joystick_Assembly_Guide_v0.9.pdf) for the tools and steps required to build each portion.
+Reference the [Assembly Guide](/Documentation/Oak_Compact_Joystick-A_Assembly_Guide.pdf) for the tools and steps required to build each portion.
 
 ## Files
 ### Documentation
