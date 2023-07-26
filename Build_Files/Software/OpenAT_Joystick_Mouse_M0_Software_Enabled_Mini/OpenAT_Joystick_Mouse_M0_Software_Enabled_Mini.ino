@@ -56,7 +56,7 @@
 #define SWITCH_A_PIN      6
 #define SWITCH_B_PIN      7
 #define SWITCH_C_PIN      3
-#define SWITCH_D_PIN    2                           // Switch in the joystick (press down)
+#define SWITCH_D_PIN      2                           // Switch in the joystick (press down)
 
 XACGamepad gamepad;                                    //Starts an instance of the USB gamepad object
 
@@ -184,7 +184,8 @@ void setup() {
   pinMode(SWITCH_D_PIN, INPUT_PULLUP);
 
   checkSetupMode(); // Check to see if operating mode change
-  delay(STARTUP_DELAY_TIME);
+  
+  delay(STARTUP_DELAY_TIME); 
 
   // Turn on indicator light, depending on mode selection
   switch (operatingMode) {

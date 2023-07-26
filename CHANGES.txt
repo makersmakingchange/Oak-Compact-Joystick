@@ -1,14 +1,19 @@
 ------OAK COMPACT JOYSTICK------
            Changelog
 ===============================
+Version 0.9.1 2023-July-24
+ - Ability to switch operation mode through button push on reset.
+ - Operating mode indicated by color
 
-Version 0.2 	Date 05/18/2023
- - Initial commit
- - Oak Compact Joystick with 4 optional toppers and an optional camera mount adapter
 
-Version 0.9           Date 06/30/2023
+Version 0.9    2023-Jun-30
 - Enclosure optimised for reduced print time and improved build redundancy
 - Topper connection collet design
 - Updated toppers
-           - 5 parametric toppers
+- 5 parametric toppers
 - Paired with Enabled Controller Mini and custom Mouse and Gamepad code
+
+Version 0.2 	2023-May-18
+ - Initial commit
+ - Oak Compact Joystick with 4 optional toppers and an optional camera mount adapter
+
