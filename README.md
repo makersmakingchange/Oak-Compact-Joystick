@@ -28,7 +28,7 @@ The Oak Compact Joystick is a medium sized proportional joystick that can be use
 PHOTO
 
  --->
- <img src="Photos/Oak_Joystick_Complete.jpg" width="500" alt="A photo of the Oak Compact Joystick.">
+ <img src="Photos/Assmebly_Photos/Oak_Joystick_Complete.jpg" width="500" alt="A photo of the Oak Compact Joystick.">
  
 Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
 <!--- 
