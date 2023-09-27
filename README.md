@@ -23,15 +23,15 @@ A brief summary of the project. What it does, who it is for, how much it costs.
 The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. This joystick has a cable with a 3.5 mm TRRS audio plug (i.e., headphone jack). It is compatible with the X1 or X2 analog input ports on the Microsoft Xbox Adaptive controller as well as the [Forest Joystick Mouse Hub](https://github.com/makersmakingchange/Forest-Joystick-Mouse-Hub) and the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
 
 
-
 <!--- 
 PHOTO
 
  --->
  <img src="Photos/Assembly_Photos/Oak_Joystick_Complete.jpg" width="500" alt="A photo of the Oak Compact Joystick.">
  
-Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
+
 <!--- 
+Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
 ## More info at
  - [Makers Making Change Forum Thread](TBD) 
  - [Makers Making Change Project Page](TBD)
