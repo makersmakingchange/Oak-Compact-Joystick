@@ -1,7 +1,7 @@
 ------OAK COMPACT JOYSTICK------
            Changelog
 ===============================
-Version 1.0 2023-Sept-
+Version 1.0 2023-Sept-27
  - Updated enclosure cable tie anchor and internal labelling
  - Updated topper sizes
  - Updated documentation 
