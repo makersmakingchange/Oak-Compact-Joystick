@@ -93,7 +93,7 @@ Reference the [Maker Guide](/Documentation/Oak_Joystick_Maker_Guide.pdf) for the
 | Design Rationale     | 1.0     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Joystick_Design_Rationale.pdf)     |
 | Bill of Materials    | 1.0     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Joystick_BOM.csv)     |
 | Topper Sizing Guide  | 1.0     | [Oak_Compact_Joystick_Topper_Sizing_Guide](/Documentation/Oak_Joystick_Topper_Guide.pdf)
-| Maker Guide          | 1.0     | [Oak_Compact_Joystick_Assembly_Guide](/Documentation/Oak_Joystick_Maker_Guide.pdf)     |
+| Maker Guide          | 1.0     | [Oak_Compact_Joystick_Maker_Guide](/Documentation/Oak_Joystick_Maker_Guide.pdf)     |
 | User Guide           | 1.0     | [Oak_Compact_Joystick_User_Guide](/Documentation/Oak_Joystick_User_Guide.pdf)    |
 
 
