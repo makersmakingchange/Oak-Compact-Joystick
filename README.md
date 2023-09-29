@@ -1,43 +1,32 @@
-<!--- 
-Open Source Assistive Technology: GitHub Readme Template
- --->
-
-<!---
-INSTRUCTIONS
-This is a markdown template for creating the README.md file in a GitHub repository. This file is rendered and displayed automatically when someone visits the repository.
-
-This document includes helper text that will not be displayed when rendered. Any text between the less-than sign + exclamation mark + three hyphen-minus (<!---) and matching three hyphen-minus + greater-than sign will not be displayed. This helper text can be deleted once the corresponding section is completed.
-
- --->
- 
- <!--- 
-TITLE
-Should match the name of the GitHub repository. Choose something descriptive rather than whimsical. 
- --->
  # Oak Compact Joystick
 
 <!--- 
 SUMMARY
 A brief summary of the project. What it does, who it is for, how much it costs.
  --->
-The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. This joystick has a cable with a 3.5 mm TRRS audio plug (i.e., headphone jack). It is compatible with the X1 or X2 analog input ports on the Microsoft Xbox Adaptive controller as well as the [Forest Joystick Mouse Hub](https://github.com/makersmakingchange/Forest-Joystick-Mouse-Hub) and the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
+The Oak Compact Joystick is a medium sized proportional joystick that can be used for adaptive gaming. It has range of motion of approximately ±25° and requires 525 grams-force to fully deflect. This joystick has a cable with a 3.5 mm TRRS audio plug (i.e., headphone jack). It is compatible Microsoft Xbox Adaptive controller as well as the [Forest Joystick Mouse Hub](https://github.com/makersmakingchange/Forest-Joystick-Mouse-Hub) and the [Enabled Controller](https://makersmakingchange.com/project/enabled-controller/).
 
+The Oak Compact Joystick can be used directly as a left or right thumbstick for the Microsoft Xbox Adaptive Controller (XAC) using the X1 or X2 analog input ports. It can also be used with the [Forest Joystick Mouse Hub](https://github.com/makersmakingchange/Forest-Joystick-Mouse-Hub) as a USB Gamepad or USB Mouse.
+
+The Oak Compact Joystick has a set of easily swappable, modular toppers that can be added to make the joystick easier or more comfortable to use.
+
+The Oak Compact Joystick is open assistive technology (OpenAT). Under the terms of the open source licenses, the device may be built, used, and improved upon by anyone.
+
+The current version of the Oak Compact Joystick (v1.0) has been built and user tested.
 
 <!--- 
 PHOTO
-
  --->
- <img src="Photos/Assembly_Photos/Oak_Joystick_Complete.jpg" width="500" alt="A photo of the Oak Compact Joystick.">
+ <img src="Photos/Oak_Compact_Joystick.png" width="500" alt="An Oak Compact Joystick with a green and brown enclosure.">
  
-
 <!--- 
 Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
-## More info at
- - [Makers Making Change Forum Thread](TBD) 
- - [Makers Making Change Project Page](TBD)
- --->
+--->
+
+Makers Making Change Assistive Device Library Listing: https://www.makersmakingchange.com/s/product/oak-compact-joystick/01tJR00000092x3YAA
+
 ## OpenAT Joysticks
-This design is part of the [OpenAT Joystick project](https://github.com/makersmakingchange/OpenAT-Joysticks), a collection of open source designs for digital access and adapted gaming.  
+This design is part of the [OpenAT Joystick Project](https://github.com/makersmakingchange/OpenAT-Joysticks), a collection of open source designs for digital access and adapted gaming.  
 
 ## How to Obtain an Oak Compact Joystick
 There are several options for obtaining the device.
@@ -48,22 +37,12 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 ### 2. Request a build of this device
 
+If you would like to obtain an Oak Compact Joystick, you may submit a build request through the [MMC Library Listing](https://www.makersmakingchange.com/s/product/oak-compact-joystick/01tJR00000092x3YAA). The requestor is responsible for the cost of materials and any shipping.
 
-A limited number of these devices may be available at no-cost to people with disabilities that reside within Canada. If you think this applies to you, please send an email to info@makersmakingchange.com.
-
-Once the device is finalized and published in the Makers Making Change library, it will also be possible to submit a build request to have a volunteer maker build the device. As the requestor, you are responsible for reimbursing the maker for the cost of materials and any shipping.
-<!---
-If you would like to obtain an Oak Compact Joystick, you may submit a build request through the [MMC Library Page](https://makersmakingchange.com/project/Oak-Compact-Joystick/). The requestor is responsible for the cost of materials and any shipping.
---->
+A limited number of these devices may be available at no-cost to people with disabilities that reside within Canada as part of the [Accesible Technology Program Grant](https://ised-isde.canada.ca/site/accessible-technology-program/en). If you think this applies to you, please send an email to info@makersmakingchange.com.
 
 ### 3. How to build this device for someone else
-Once the device is finalized and published in the Makers Making Change library, there is a plan to hold a number of build events in Canada. If you'd like to participate, send an email to info@makersmakingchange.com.
-
-Once added to the library, if you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Makers Wanted](https://makersmakingchange.com/maker-wanted/) section to fulfill build requests.
-
-<!---
-If you have the skills and equipment to build this device, and would like to donate your time to create the switch for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
---->
+If you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
 
 ## Getting Started
 
@@ -74,7 +53,6 @@ The Makers Checklist in the [Maker Guide](/Documentation/Oak_Joystick_Maker_Guid
 ### 2. Order the Off-The-Shelf Components
 
 The [Oak Joystick Bill of Materials](/Documentation/Oak_Joystick_BOM.csv) lists all of the parts and components required to build the Oak Compact Joystick.
-
 
 ### 3. Print the 3D Printable components
 
@@ -92,7 +70,7 @@ Reference the [Maker Guide](/Documentation/Oak_Joystick_Maker_Guide.pdf) for the
 |----------------------|---------|------|
 | Design Rationale     | 1.0     | [Oak_Compact_Joystick_Design_Rationale](/Documentation/Oak_Joystick_Design_Rationale.pdf)     |
 | Bill of Materials    | 1.0     | [Oak_Compact_Joystick_Bill_of_Materials](/Documentation/Oak_Joystick_BOM.csv)     |
-| Topper Sizing Guide  | 1.0     | [Oak_Compact_Joystick_Topper_Sizing_Guide](/Documentation/Oak_Joystick_Topper_Guide.pdf)
+| Topper Sizing Guide  | 1.0     | [Oak_Compact_Joystick_Topper_Guide](/Documentation/Oak_Joystick_Topper_Guide.pdf)
 | Maker Guide          | 1.0     | [Oak_Compact_Joystick_Maker_Guide](/Documentation/Oak_Joystick_Maker_Guide.pdf)     |
 | User Guide           | 1.0     | [Oak_Compact_Joystick_User_Guide](/Documentation/Oak_Joystick_User_Guide.pdf)    |
 
@@ -111,6 +89,7 @@ This section lists links to the various files used to build the device.
 --->
  - [3D Printing Files](/Build_Files/3D_Print_files)
 
+
 ## License
 <!---
 LICENSE
@@ -120,16 +99,35 @@ Everything needed or used to design, make, test, or prepare the Oak Compact Joys
 
 Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Oak Compact Joystick are published under a Creative Commons Attribution-ShareAlike 4.0 license <https://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0).
 
+
+Copyright (c) 2023 Neil Squire Society.
+
+This repository describes Open Hardware:
+ - Everything needed or used to design, make, test, or prepare the Oak Compact Joystick is licensed under the [CERN 2.0 Weakly Reciprocal license (CERN-OHL-W v2) or later](https://cern.ch/cern-ohl ) .
+ - All software is under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl.html).
+ - Accompanying material such as instruction manuals, videos, and other copyrightable works that are useful but not necessary to design, make, test, or prepare the Oak Compact Joystick are published under a [Creative Commons Attribution-ShareAlike 4.0 license (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) .
+
+You may redistribute and modify this documentation and make products using it under the terms of the [CERN-OHL-W v2](https://cern.ch/cern-ohl).
+This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-W v2 for applicable conditions.
+
+Source Location: https://github.com/makersmakingchange/Oak-Compact-Joystick
+
+
 ## Attribution
 <!---
 ATTRIBUTION
 Include any information related to the development of the design. This may include who identified the initial challenge, who contributed to the design
 --->
-Hardware, toppers, and enclosure design: Makers Making Change - Neil Squire Society
+The documentation template was created by the Makers Making Change program of the Neil Squire Society and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
 
-The documentation template was created by Makers Making Change / Neil Squire and is used under a CC BY-SA 4.0 license. It is available at the following link: https://github.com/makersmakingchange/OpenAT-Template
+### Contributors
+- Stephen Moyer, Neil Squire Society. Design of hardware, enclosure, toppers. Documentation.
+- Jake McIvor, Neil Squire Society. Testing and documentation.
+- Tyler Fentie, Neil Squire Society. Testing.
+- Josie Versloot, Neil Squire Society. Testing.
 
-
+---
 ## About Makers Making Change
 [<img src="https://raw.githubusercontent.com/makersmakingchange/makersmakingchange/main/img/mmc_logo.svg" width="500" alt="Makers Making Change Logo">](https://www.makersmakingchange.com/)
 

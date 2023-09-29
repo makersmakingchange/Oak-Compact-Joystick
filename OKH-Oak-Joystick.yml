@@ -1,0 +1,72 @@
+title: Oak Compact Joystick
+description: The Oak Compact Joystick is a medium sized proportional joystick in a 3D printable, 
+mountable enclosure and is available with a set of modular, swappable toppers. The joystick is compatible with the Microsoft Xbox Adaptive Controller 
+and can also be used with the Forest Joystick Mouse Hub to emulate a USB Mouse or USB Gamepad.
+intended-use: Intended for people with disabilities as an alternate input device for adaptive gaming or computer access.
+keywords:
+  - openAT
+  - disability
+  - accesibility
+  - mouse
+  - joystick
+  - gamepad
+  - assistive technology
+project-link: https://github.com/makersmakingchange/Oak-Compact-Joystick
+image: https://github.com/makersmakingchange/Oak-Compact-Joystick/blob/main/Photos/Oak_Compact_Joystick.png
+made: true
+made-independently: false
+license:
+  hardware: CERN-OHL-W-2.0
+  documentation: CC-BY-SA-4.0
+licensor:
+  name: Jacob McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+okh-manifest-version: 1.0.0
+date-created: 2023-09-27
+date-updated: 2023-09-27
+manifest-author:
+  name: Jacob McIvor
+  affiliation: Neil Squire Society
+  email: jakem@neilsquire.ca
+manifest-language: en-CA
+contact:
+  name: Makers Making Change
+  affiliation: Neil Squire Society
+  email: info@makersmakingchange.com
+  social:
+    - platform: Instagram
+      user-handle: "@makermakingchange"
+    - platform: Twitter
+      user-handle: "@makermakechange"
+contributors:
+   - name: Stephen Moyer
+    affiliation: Neil Squire Society
+    email: stephenm@neilsquire.ca
+   - name: Josie Versloot
+    affiliation: Neil Squire Society
+    email: josiev@neilsquire.ca
+  - name: Jacob McIvor
+    affiliation: Neil Squire Society
+    email: jakem@neilsquire.ca
+  - name: Tyler Fentie
+    affiliation: Neil Squire Society
+    email: tylerf@neilsquire.ca
+version: "1.0"
+development-stage: product
+documentation-home: https://github.com/makersmakingchange/Oak-Compact-Joystick
+archive-download: https://github.com/makersmakingchange/Oak-Compact-Joystick/archive/refs/heads/main.zip
+design-files:
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Design_Files/CAD_Files
+    title: CAD Files
+bom: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_BOM.csv
+making-instructions:
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_Maker_Guide.pdf
+    title: Oak Joystick Maker Guide
+manufacturing-files:
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Build_Files/3D_Printing_Files
+    title: 3D Printing Files
+operating-instructions:
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_User_Guide.pdf
+    title: Oak Joystick User Guide
+
