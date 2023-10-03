@@ -17,7 +17,7 @@ The current version of the Oak Compact Joystick (v1.0) has been built and user t
 <!--- 
 PHOTO
  --->
- <img src="Photos/Oak_Compact_Joystick.png" width="500" alt="An Oak Compact Joystick with a green and brown enclosure.">
+ <img src="Photos/Assembly_Photos/Oak_Compact_Joystick.png" width="500" alt="An Oak Compact Joystick printed in orange PLA.">
  
 <!--- 
 Other available joysticks can be found through the [Joystick Selection Guide](https://makersmakingchange.com/resource/analog-joystick-selection-guide/)
