@@ -87,7 +87,7 @@ If possible, include a copy of original design files to facilitate easy editing 
 BUILD FILES
 This section lists links to the various files used to build the device.
 --->
- - [3D Printing Files](/Build_Files/3D_Print_files)
+ - [3D Printing Files](/Build_Files/3D_Printing_files)
 
 
 ## License
