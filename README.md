@@ -39,8 +39,6 @@ This is an open-source assistive technology, so anyone is free to build it. All 
 
 If you would like to obtain an Oak Compact Joystick, you may submit a build request through the [MMC Library Listing](https://www.makersmakingchange.com/s/product/oak-compact-joystick/01tJR00000092x3YAA). The requestor is responsible for the cost of materials and any shipping.
 
-A limited number of these devices may be available at no-cost to people with disabilities that reside within Canada as part of the [Accesible Technology Program Grant](https://ised-isde.canada.ca/site/accessible-technology-program/en). If you think this applies to you, please send an email to info@makersmakingchange.com.
-
 ### 3. How to build this device for someone else
 If you have the skills and equipment to build this device, and would like to donate your time to create the device for someone who needs it, visit the [MMC Maker Wanted](https://makersmakingchange.com/maker-wanted/) section.
 
