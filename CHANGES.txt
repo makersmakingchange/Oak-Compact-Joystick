@@ -1,6 +1,9 @@
 ------OAK COMPACT JOYSTICK------
            Changelog
 ===============================
+Version 1.0.1 2024-Oct-10
+ - Added CAD files for Topper_Nut, Topper_Collet, and Topper_Interface
+
 Version 1.0 2023-Sept-27
  - Updated enclosure cable tie anchor and internal labelling
  - Updated topper sizes
