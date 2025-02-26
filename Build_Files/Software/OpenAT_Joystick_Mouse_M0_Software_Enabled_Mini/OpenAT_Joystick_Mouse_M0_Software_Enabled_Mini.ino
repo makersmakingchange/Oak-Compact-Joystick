@@ -309,25 +309,34 @@ void initJoystick()
 //*********************************//
 
 void readJoystick() {
-
-  //Read analog raw value using ADC
+  // Read analog raw value using ADC
   inputX = analogRead(JOYSTICK_X_PIN);
   inputY = analogRead(JOYSTICK_Y_PIN);
 
-  //Map joystick x and y move values
+  // Map joystick x and y move values to the range -127 to 127
   outputX = map(inputX, 0, 1023, -127, 127);
   outputY = map(inputY, 0, 1023, -127, 127);
 
+  // Apply radial deadzone *********************************************************************
   double outputMag = calcMag(outputX, outputY);
-
-  //Apply radial deadzone *********************************************************************
-  if (outputMag <= currentDeadzoneValue)
-  {
+  
+  if (outputMag <= currentDeadzoneValue) {
+    // If within the deadzone, set outputs to 0
     outputX = 0;
     outputY = 0;
-  }
+  } else {
+    // If outside the deadzone, normalize the movement
+    double deadzoneAdjust = (outputMag - currentDeadzoneValue) / (127 - currentDeadzoneValue);
 
+    // Scale the output values relative to the deadzone
+    outputX = (outputX / outputMag) * (outputMag - currentDeadzoneValue) * deadzoneAdjust;
+    outputY = (outputY / outputMag) * (outputMag - currentDeadzoneValue) * deadzoneAdjust;
+  }
+  
+  // Debug output
+  Serial.println(outputX);
 }
+
 
 //***JOYSTICK ACTIONS FUNCTION**//
 // Function   : joystickActions
@@ -345,6 +354,7 @@ void joystickActions() {
     case MODE_MOUSE:
       //mouse action
       Mouse.move(MOUSE_MAX_XY * outputX / 127, -MOUSE_MAX_XY * outputY / 127, 0);
+      Serial.println("Mousemove:" + String(MOUSE_MAX_XY * outputX / 127));
       break;
     case MODE_GAMEPAD:
       //Perform joystick HID action
