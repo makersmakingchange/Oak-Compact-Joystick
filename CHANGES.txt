@@ -1,6 +1,9 @@
 ------OAK COMPACT JOYSTICK------
            Changelog
 ===============================
+Version 1.0.3 2025-Feb-27
+ - Added CAD and STL files for stronger goalpost toppers
+
 Version 1.0.2 2024-Oct-07
  - Added CAD files and updated documentation for Topper Wrench
 
