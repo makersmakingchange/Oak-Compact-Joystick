@@ -57,16 +57,17 @@ development-stage: product
 documentation-home: https://github.com/makersmakingchange/Oak-Compact-Joystick
 archive-download: https://github.com/makersmakingchange/Oak-Compact-Joystick/archive/refs/heads/main.zip
 design-files:
-  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Design_Files/CAD_Files
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/main/Design_Files/CAD_Files
     title: CAD Files
-bom: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_BOM.csv
+bom: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/main/Documentation/Oak_Joystick_BOM.csv
 making-instructions:
-  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_Maker_Guide.pdf
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/main/Documentation/Oak_Joystick_Maker_Guide.pdf
     title: Oak Joystick Maker Guide
 manufacturing-files:
-  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Build_Files/3D_Printing_Files
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/main/Build_Files/3D_Printing_Files
     title: 3D Printing Files
 operating-instructions:
-  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/master/Documentation/Oak_Joystick_User_Guide.pdf
+  - path: https://github.com/makersmakingchange/Oak-Compact-Joystick/tree/main/Documentation/Oak_Joystick_User_Guide.pdf
     title: Oak Joystick User Guide
+
 
