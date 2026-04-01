@@ -49,6 +49,8 @@ The [Oak Joystick Bill of Materials](/Documentation/Oak_Joystick_BOM.csv) lists 
 
 Print the components needed for the Oak Compact Joystick. Make sure to ask the user if they would like any of the optional prints such as toppers or mount adapters. Refer to the [OpenAT Joystick Setup Guide](https://github.com/makersmakingchange/OpenAT-Joysticks/Resources/OpenAT_Joystick_Setup_Guide.pdf) for detailed mounting options.
 
+The 3D print files for the mounting adapters are located on the [OpenAT Joystick Repository](https://github.com/makersmakingchange/OpenAT-Joysticks/tree/main/Mounting%20Adapters)
+
 All of the files and individual print files can be in the [/Build_Files/3D_Printing_Files](/Build_Files/3D_Printing_Files/) folder.
 
 ### 4. Assemble the Oak Compact Joystick
